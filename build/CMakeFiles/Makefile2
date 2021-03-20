@@ -405,552 +405,591 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory hw1
+# Directory level rules for directory homework
 
 # Convenience name for "all" pass in the directory.
-hw1/all: hw1/CMakeFiles/hw1.dir/all
+homework/all: homework/CMakeFiles/hw1.dir/all
+homework/all: homework/CMakeFiles/hw2.dir/all
 
-.PHONY : hw1/all
+.PHONY : homework/all
 
 # Convenience name for "clean" pass in the directory.
-hw1/clean: hw1/CMakeFiles/roscpp_generate_messages_py.dir/clean
-hw1/clean: hw1/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-hw1/clean: hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-hw1/clean: hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-hw1/clean: hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-hw1/clean: hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-hw1/clean: hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-hw1/clean: hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-hw1/clean: hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-hw1/clean: hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-hw1/clean: hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-hw1/clean: hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-hw1/clean: hw1/CMakeFiles/hw1.dir/clean
-hw1/clean: hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-hw1/clean: hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-hw1/clean: hw1/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+homework/clean: homework/CMakeFiles/roscpp_generate_messages_py.dir/clean
+homework/clean: homework/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+homework/clean: homework/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+homework/clean: homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+homework/clean: homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+homework/clean: homework/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+homework/clean: homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+homework/clean: homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+homework/clean: homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+homework/clean: homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+homework/clean: homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+homework/clean: homework/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+homework/clean: homework/CMakeFiles/hw1.dir/clean
+homework/clean: homework/CMakeFiles/hw2.dir/clean
+homework/clean: homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+homework/clean: homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+homework/clean: homework/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
-.PHONY : hw1/clean
+.PHONY : homework/clean
 
 # Convenience name for "preinstall" pass in the directory.
-hw1/preinstall:
+homework/preinstall:
 
-.PHONY : hw1/preinstall
+.PHONY : homework/preinstall
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/roscpp_generate_messages_py.dir
+# Target rules for target homework/CMakeFiles/roscpp_generate_messages_py.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_py.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_py.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_py.dir/build
+homework/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_py.dir/build.make homework/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_py.dir/build.make homework/CMakeFiles/roscpp_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_py.dir/all
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+homework/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/roscpp_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_py: hw1/CMakeFiles/roscpp_generate_messages_py.dir/rule
+roscpp_generate_messages_py: homework/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 .PHONY : roscpp_generate_messages_py
 
 # clean rule for target.
-hw1/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_py.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_py.dir/clean
+homework/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_py.dir/build.make homework/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/roscpp_generate_messages_py.dir/clean
+clean: homework/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/roscpp_generate_messages_eus.dir
+# Target rules for target homework/CMakeFiles/roscpp_generate_messages_eus.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/roscpp_generate_messages_eus.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_eus.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_eus.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_eus.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_eus.dir/build
+homework/CMakeFiles/roscpp_generate_messages_eus.dir/all:
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_eus.dir/build.make homework/CMakeFiles/roscpp_generate_messages_eus.dir/depend
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_eus.dir/build.make homework/CMakeFiles/roscpp_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_eus.dir/all
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
+homework/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/roscpp_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/roscpp_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_eus: hw1/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+roscpp_generate_messages_eus: homework/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 .PHONY : roscpp_generate_messages_eus
 
 # clean rule for target.
-hw1/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_eus.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+homework/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_eus.dir/build.make homework/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+clean: homework/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/roscpp_generate_messages_lisp.dir
+# Target rules for target homework/CMakeFiles/roscpp_generate_messages_lisp.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+homework/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make homework/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make homework/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+homework/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_lisp: hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+roscpp_generate_messages_lisp: homework/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 .PHONY : roscpp_generate_messages_lisp
 
 # clean rule for target.
-hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+homework/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make homework/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+clean: homework/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+# Target rules for target homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+rosgraph_msgs_generate_messages_cpp: homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_cpp
 
 # clean rule for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+clean: homework/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir
+# Target rules for target homework/CMakeFiles/std_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_lisp: hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+std_msgs_generate_messages_lisp: homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : std_msgs_generate_messages_lisp
 
 # clean rule for target.
-hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+clean: homework/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/roscpp_generate_messages_cpp.dir
+# Target rules for target homework/CMakeFiles/roscpp_generate_messages_cpp.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+homework/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make homework/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make homework/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+homework/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_cpp: hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+roscpp_generate_messages_cpp: homework/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 .PHONY : roscpp_generate_messages_cpp
 
 # clean rule for target.
-hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+homework/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make homework/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+clean: homework/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+# Target rules for target homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_eus: hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+rosgraph_msgs_generate_messages_eus: homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_eus
 
 # clean rule for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+clean: homework/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+# Target rules for target homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+rosgraph_msgs_generate_messages_lisp: homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_lisp
 
 # clean rule for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+clean: homework/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir
+# Target rules for target homework/CMakeFiles/std_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_cpp: hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+std_msgs_generate_messages_cpp: homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 .PHONY : std_msgs_generate_messages_cpp
 
 # clean rule for target.
-hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+clean: homework/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
+# Target rules for target homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+rosgraph_msgs_generate_messages_nodejs: homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_nodejs
 
 # clean rule for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+clean: homework/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+# Target rules for target homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_py: hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+rosgraph_msgs_generate_messages_py: homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 .PHONY : rosgraph_msgs_generate_messages_py
 
 # clean rule for target.
-hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+clean: homework/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/std_msgs_generate_messages_eus.dir
+# Target rules for target homework/CMakeFiles/std_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+homework/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+homework/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_eus: hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+std_msgs_generate_messages_eus: homework/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 .PHONY : std_msgs_generate_messages_eus
 
 # clean rule for target.
-hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+homework/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+clean: homework/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/hw1.dir
+# Target rules for target homework/CMakeFiles/hw1.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/hw1.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/hw1.dir/build.make hw1/CMakeFiles/hw1.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/hw1.dir/build.make hw1/CMakeFiles/hw1.dir/build
+homework/CMakeFiles/hw1.dir/all:
+	$(MAKE) -f homework/CMakeFiles/hw1.dir/build.make homework/CMakeFiles/hw1.dir/depend
+	$(MAKE) -f homework/CMakeFiles/hw1.dir/build.make homework/CMakeFiles/hw1.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num=12,13 "Built target hw1"
-.PHONY : hw1/CMakeFiles/hw1.dir/all
+.PHONY : homework/CMakeFiles/hw1.dir/all
 
 # Include target in all.
-all: hw1/CMakeFiles/hw1.dir/all
+all: homework/CMakeFiles/hw1.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/hw1.dir/rule: cmake_check_build_system
+homework/CMakeFiles/hw1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/hw1.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/hw1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/hw1.dir/rule
+.PHONY : homework/CMakeFiles/hw1.dir/rule
 
 # Convenience name for target.
-hw1: hw1/CMakeFiles/hw1.dir/rule
+hw1: homework/CMakeFiles/hw1.dir/rule
 
 .PHONY : hw1
 
 # clean rule for target.
-hw1/CMakeFiles/hw1.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/hw1.dir/build.make hw1/CMakeFiles/hw1.dir/clean
-.PHONY : hw1/CMakeFiles/hw1.dir/clean
+homework/CMakeFiles/hw1.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/hw1.dir/build.make homework/CMakeFiles/hw1.dir/clean
+.PHONY : homework/CMakeFiles/hw1.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/hw1.dir/clean
+clean: homework/CMakeFiles/hw1.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+# Target rules for target homework/CMakeFiles/hw2.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+homework/CMakeFiles/hw2.dir/all:
+	$(MAKE) -f homework/CMakeFiles/hw2.dir/build.make homework/CMakeFiles/hw2.dir/depend
+	$(MAKE) -f homework/CMakeFiles/hw2.dir/build.make homework/CMakeFiles/hw2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num=14,15 "Built target hw2"
+.PHONY : homework/CMakeFiles/hw2.dir/all
+
+# Include target in all.
+all: homework/CMakeFiles/hw2.dir/all
+
+.PHONY : all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+homework/CMakeFiles/hw2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/hw2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+.PHONY : homework/CMakeFiles/hw2.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_nodejs: hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+hw2: homework/CMakeFiles/hw2.dir/rule
+
+.PHONY : hw2
+
+# clean rule for target.
+homework/CMakeFiles/hw2.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/hw2.dir/build.make homework/CMakeFiles/hw2.dir/clean
+.PHONY : homework/CMakeFiles/hw2.dir/clean
+
+# clean rule for target.
+clean: homework/CMakeFiles/hw2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_nodejs: homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 .PHONY : std_msgs_generate_messages_nodejs
 
 # clean rule for target.
-hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+clean: homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir
+# Target rules for target homework/CMakeFiles/roscpp_generate_messages_nodejs.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_nodejs: hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+roscpp_generate_messages_nodejs: homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 .PHONY : roscpp_generate_messages_nodejs
 
 # clean rule for target.
-hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-.PHONY : hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+.PHONY : homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+clean: homework/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target hw1/CMakeFiles/std_msgs_generate_messages_py.dir
+# Target rules for target homework/CMakeFiles/std_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-hw1/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_py.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_py.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_py.dir/build
+homework/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_py.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_py.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_py.dir/all
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-hw1/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+homework/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 hw1/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_py: hw1/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+std_msgs_generate_messages_py: homework/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 .PHONY : std_msgs_generate_messages_py
 
 # clean rule for target.
-hw1/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f hw1/CMakeFiles/std_msgs_generate_messages_py.dir/build.make hw1/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : hw1/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+homework/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f homework/CMakeFiles/std_msgs_generate_messages_py.dir/build.make homework/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : homework/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: hw1/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+clean: homework/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 .PHONY : clean
 

@@ -204,6 +204,8 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-
 add_executable(hw1 src/hw1.cpp)
 target_link_libraries(hw1 ${catkin_LIBRARIES})
+
+add_executable(hw2 src/hw2.cpp)
+target_link_libraries(hw2 ${catkin_LIBRARIES})

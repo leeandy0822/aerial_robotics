@@ -346,10 +346,10 @@ gtest_hide_internal_symbols:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Value Computed by CMake
-homework_BINARY_DIR:STATIC=/home/ubuntu/catkin_ws/build/hw1
+homework_BINARY_DIR:STATIC=/home/ubuntu/catkin_ws/build/homework
 
 //Value Computed by CMake
-homework_SOURCE_DIR:STATIC=/home/ubuntu/catkin_ws/src/hw1
+homework_SOURCE_DIR:STATIC=/home/ubuntu/catkin_ws/src/homework
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
