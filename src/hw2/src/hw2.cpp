@@ -13,8 +13,8 @@ double PI = M_PI;
 
 
 // define  Kp term for linear and angular
-const int K_Linear=1;
-const int K_Angular=4;
+const int K_Linear= 1.5;
+int K_Angular= 4;
 
 
 using namespace std;
@@ -65,25 +65,22 @@ int main(int argc, char **argv)
     pos_err.x = goal_point.x - pose.x;
     pos_err.y = goal_point.y - pose.y;
 
-    double distance = distance = sqrt(pow(pos_err.x,2)+pow(pos_err.y,2));;
-    double theta = atan(pos_err.y/pos_err.x)/PI*180;
-  
-    if(goal_point.x<pose.x && goal_point.y>pose.y){
-      theta=180+theta;
-    }
-    if(goal_point.x<pose.x && goal_point.y<pose.y){
-      theta=-180+theta;
-    }
 
 
+    double distance_err = sqrt(pow(pos_err.x,2)+pow(pos_err.y,2));
+    // first term is target_vector and the second term is turtle's coordinate vector, so we can get the error
+    double theta_err = atan2(pos_err.y,pos_err.x)-pose.theta;
+    
 
-    vel_msg.linear.x = K_Linear*distance;
-    vel_msg.angular.z = K_Angular*(theta*0.0172-pose.theta);
+    vel_msg.linear.x = K_Linear*distance_err;
+    vel_msg.angular.z = K_Angular*theta_err;
 
-    if(distance<0.01){
-      cout <<"distance error: " << distance <<endl;
+    if(distance_err<0.01){
+      cout <<"distance_err error: " << distance_err <<endl;
       break;
     }
+
+
     turtlesim_pub.publish(vel_msg);
 
     count ++;
