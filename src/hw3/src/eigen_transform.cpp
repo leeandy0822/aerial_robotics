@@ -4,14 +4,17 @@
 
 Eigen::Vector3d rad2deg(Eigen::Vector3d radians)
 {
-    // Implement your code here
-    return radians;
+    Eigen::Vector3d deg;
+    deg = radians*180.0/M_PI;
+    return deg;
 }
 
 Eigen::Vector3d deg2rad(Eigen::Vector3d degrees)
 {
     // Implement your code here
-    return degrees;
+    Eigen::Vector3d rad;
+    rad = degrees*M_PI/180.0;
+    return rad;
 }
 
 Eigen::Quaterniond Euler2Quaternion(Eigen::Vector3d euler)
@@ -27,7 +30,9 @@ Eigen::Vector3d Quaternion2Euler(Eigen::Quaterniond Q)
 {
     Eigen::Vector3d Euler(0, 0, 0);
     Euler.x() = atan2(2 * (Q.w() * Q.x() + Q.y() * Q.z()), (1 - 2 * (Q.x() * Q.x() + Q.y() * Q.y())));
-    // Implement your code here
+    Euler.y() = asin(2*(Q.w()*Q.y() - Q.x()*Q.z()));
+    Euler.z() = atan2(2 * (Q.x() * Q.y() + Q.w() * Q.z()), (1 - 2 * (Q.y() * Q.y() + Q.z() * Q.z())));
+    
     return Euler;
 }
 
@@ -64,6 +69,11 @@ int main(int argc, char **argv)
 
         // Apply rotation to point with quaternion
         // Implement your code here
+
+        // In math is Q_tmp * v * Q_tmp^{-1}
+        world_point = Q_tmp * world_point;
+
+
         count ++;
         std::cout << "Current point position " << world_point.transpose() << std::endl << std::endl;
 
