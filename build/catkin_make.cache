@@ -1,2 +1,2 @@
-homework
+hw1:hw11:hw2:hw3:hw6:hw7
 -DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws/install -G Unix Makefiles

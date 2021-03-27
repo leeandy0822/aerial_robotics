@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/catkin_ws/build/hw1/catkin_generated/installspace/homework.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/catkin_ws/build/hw1/catkin_generated/installspace/hw1.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/homework/cmake" TYPE FILE FILES
-    "/home/ubuntu/catkin_ws/build/hw1/catkin_generated/installspace/homeworkConfig.cmake"
-    "/home/ubuntu/catkin_ws/build/hw1/catkin_generated/installspace/homeworkConfig-version.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hw1/cmake" TYPE FILE FILES
+    "/home/ubuntu/catkin_ws/build/hw1/catkin_generated/installspace/hw1Config.cmake"
+    "/home/ubuntu/catkin_ws/build/hw1/catkin_generated/installspace/hw1Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/homework" TYPE FILE FILES "/home/ubuntu/catkin_ws/src/hw1/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hw1" TYPE FILE FILES "/home/ubuntu/catkin_ws/src/hw1/package.xml")
 endif()
 

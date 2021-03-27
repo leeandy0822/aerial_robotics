@@ -363,21 +363,6 @@ hw1/fast:
 .PHONY : hw1/fast
 
 # Convenience name for target.
-homework/CMakeFiles/hw2.dir/rule:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/hw2.dir/rule
-.PHONY : homework/CMakeFiles/hw2.dir/rule
-
-# Convenience name for target.
-hw2: homework/CMakeFiles/hw2.dir/rule
-
-.PHONY : hw2
-
-# fast build rule for target.
-hw2/fast:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f homework/CMakeFiles/hw2.dir/build.make homework/CMakeFiles/hw2.dir/build
-.PHONY : hw2/fast
-
-# Convenience name for target.
 homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : homework/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
@@ -449,33 +434,6 @@ src/hw1.cpp.s:
 	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f homework/CMakeFiles/hw1.dir/build.make homework/CMakeFiles/hw1.dir/src/hw1.cpp.s
 .PHONY : src/hw1.cpp.s
 
-src/hw2.o: src/hw2.cpp.o
-
-.PHONY : src/hw2.o
-
-# target to build an object file
-src/hw2.cpp.o:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f homework/CMakeFiles/hw2.dir/build.make homework/CMakeFiles/hw2.dir/src/hw2.cpp.o
-.PHONY : src/hw2.cpp.o
-
-src/hw2.i: src/hw2.cpp.i
-
-.PHONY : src/hw2.i
-
-# target to preprocess a source file
-src/hw2.cpp.i:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f homework/CMakeFiles/hw2.dir/build.make homework/CMakeFiles/hw2.dir/src/hw2.cpp.i
-.PHONY : src/hw2.cpp.i
-
-src/hw2.s: src/hw2.cpp.s
-
-.PHONY : src/hw2.s
-
-# target to generate assembly for a file
-src/hw2.cpp.s:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f homework/CMakeFiles/hw2.dir/build.make homework/CMakeFiles/hw2.dir/src/hw2.cpp.s
-.PHONY : src/hw2.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -502,16 +460,12 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... hw1"
-	@echo "... hw2"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... src/hw1.o"
 	@echo "... src/hw1.i"
 	@echo "... src/hw1.s"
-	@echo "... src/hw2.o"
-	@echo "... src/hw2.i"
-	@echo "... src/hw2.s"
 .PHONY : help
 
 
