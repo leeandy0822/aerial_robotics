@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/leeandy/aerial_robotics/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/catkin_ws/build
+CMAKE_BINARY_DIR = /home/leeandy/aerial_robotics/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles /home/ubuntu/catkin_ws/build/hw2/CMakeFiles/progress.marks
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hw2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/catkin_ws/build/CMakeFiles 0
+	cd /home/leeandy/aerial_robotics/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leeandy/aerial_robotics/build/CMakeFiles /home/leeandy/aerial_robotics/build/hw2/CMakeFiles/progress.marks
+	cd /home/leeandy/aerial_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 hw2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leeandy/aerial_robotics/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hw2/clean
+	cd /home/leeandy/aerial_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 hw2/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hw2/preinstall
+	cd /home/leeandy/aerial_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 hw2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hw2/preinstall
+	cd /home/leeandy/aerial_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 hw2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leeandy/aerial_robotics/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hw2/CMakeFiles/hw2.dir/rule:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hw2/CMakeFiles/hw2.dir/rule
+	cd /home/leeandy/aerial_robotics/build && $(MAKE) -f CMakeFiles/Makefile2 hw2/CMakeFiles/hw2.dir/rule
 .PHONY : hw2/CMakeFiles/hw2.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ hw2: hw2/CMakeFiles/hw2.dir/rule
 
 # fast build rule for target.
 hw2/fast:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f hw2/CMakeFiles/hw2.dir/build.make hw2/CMakeFiles/hw2.dir/build
+	cd /home/leeandy/aerial_robotics/build && $(MAKE) -f hw2/CMakeFiles/hw2.dir/build.make hw2/CMakeFiles/hw2.dir/build
 .PHONY : hw2/fast
 
 src/hw2.o: src/hw2.cpp.o
@@ -188,7 +188,7 @@ src/hw2.o: src/hw2.cpp.o
 
 # target to build an object file
 src/hw2.cpp.o:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f hw2/CMakeFiles/hw2.dir/build.make hw2/CMakeFiles/hw2.dir/src/hw2.cpp.o
+	cd /home/leeandy/aerial_robotics/build && $(MAKE) -f hw2/CMakeFiles/hw2.dir/build.make hw2/CMakeFiles/hw2.dir/src/hw2.cpp.o
 .PHONY : src/hw2.cpp.o
 
 src/hw2.i: src/hw2.cpp.i
@@ -197,7 +197,7 @@ src/hw2.i: src/hw2.cpp.i
 
 # target to preprocess a source file
 src/hw2.cpp.i:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f hw2/CMakeFiles/hw2.dir/build.make hw2/CMakeFiles/hw2.dir/src/hw2.cpp.i
+	cd /home/leeandy/aerial_robotics/build && $(MAKE) -f hw2/CMakeFiles/hw2.dir/build.make hw2/CMakeFiles/hw2.dir/src/hw2.cpp.i
 .PHONY : src/hw2.cpp.i
 
 src/hw2.s: src/hw2.cpp.s
@@ -206,7 +206,7 @@ src/hw2.s: src/hw2.cpp.s
 
 # target to generate assembly for a file
 src/hw2.cpp.s:
-	cd /home/ubuntu/catkin_ws/build && $(MAKE) -f hw2/CMakeFiles/hw2.dir/build.make hw2/CMakeFiles/hw2.dir/src/hw2.cpp.s
+	cd /home/leeandy/aerial_robotics/build && $(MAKE) -f hw2/CMakeFiles/hw2.dir/build.make hw2/CMakeFiles/hw2.dir/src/hw2.cpp.s
 .PHONY : src/hw2.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leeandy/aerial_robotics/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

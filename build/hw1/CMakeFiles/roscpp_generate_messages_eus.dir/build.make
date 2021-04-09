@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/leeandy/aerial_robotics/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/catkin_ws/build
+CMAKE_BINARY_DIR = /home/leeandy/aerial_robotics/build
 
 # Utility rule file for roscpp_generate_messages_eus.
 
@@ -63,10 +63,10 @@ hw1/CMakeFiles/roscpp_generate_messages_eus.dir/build: roscpp_generate_messages_
 .PHONY : hw1/CMakeFiles/roscpp_generate_messages_eus.dir/build
 
 hw1/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	cd /home/ubuntu/catkin_ws/build/hw1 && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/leeandy/aerial_robotics/build/hw1 && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : hw1/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 hw1/CMakeFiles/roscpp_generate_messages_eus.dir/depend:
-	cd /home/ubuntu/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/catkin_ws/src /home/ubuntu/catkin_ws/src/hw1 /home/ubuntu/catkin_ws/build /home/ubuntu/catkin_ws/build/hw1 /home/ubuntu/catkin_ws/build/hw1/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leeandy/aerial_robotics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leeandy/aerial_robotics/src /home/leeandy/aerial_robotics/src/hw1 /home/leeandy/aerial_robotics/build /home/leeandy/aerial_robotics/build/hw1 /home/leeandy/aerial_robotics/build/hw1/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hw1/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 

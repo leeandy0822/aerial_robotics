@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/leeandy/aerial_robotics/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/catkin_ws/build
+CMAKE_BINARY_DIR = /home/leeandy/aerial_robotics/build
 
 # Utility rule file for visualization_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ hw7/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build: visualization
 .PHONY : hw7/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
 
 hw7/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean:
-	cd /home/ubuntu/catkin_ws/build/hw7 && $(CMAKE_COMMAND) -P CMakeFiles/visualization_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/leeandy/aerial_robotics/build/hw7 && $(CMAKE_COMMAND) -P CMakeFiles/visualization_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : hw7/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean
 
 hw7/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/depend:
-	cd /home/ubuntu/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/catkin_ws/src /home/ubuntu/catkin_ws/src/hw7 /home/ubuntu/catkin_ws/build /home/ubuntu/catkin_ws/build/hw7 /home/ubuntu/catkin_ws/build/hw7/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leeandy/aerial_robotics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leeandy/aerial_robotics/src /home/leeandy/aerial_robotics/src/hw7 /home/leeandy/aerial_robotics/build /home/leeandy/aerial_robotics/build/hw7 /home/leeandy/aerial_robotics/build/hw7/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hw7/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/depend
 

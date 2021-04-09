@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/catkin_ws/src/hw6/src/hw6.cpp
+/home/leeandy/aerial_robotics/src/hw6/src/hw6.cpp
 ros/ros.h
-/home/ubuntu/catkin_ws/src/hw6/src/ros/ros.h
+/home/leeandy/aerial_robotics/src/hw6/src/ros/ros.h
 std_msgs/Float64.h
-/home/ubuntu/catkin_ws/src/hw6/src/std_msgs/Float64.h
+/home/leeandy/aerial_robotics/src/hw6/src/std_msgs/Float64.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/catkin_ws/src/hw3/src/eigen_transform.cpp
+/home/leeandy/aerial_robotics/src/hw3/src/eigen_transform.cpp
 ros/ros.h
-/home/ubuntu/catkin_ws/src/hw3/src/ros/ros.h
+/home/leeandy/aerial_robotics/src/hw3/src/ros/ros.h
 Eigen/Dense
 -
 cmath

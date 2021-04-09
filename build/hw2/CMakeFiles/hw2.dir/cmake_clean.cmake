@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hw2.dir/src/hw2.cpp.o"
-  "/home/ubuntu/catkin_ws/devel/lib/hw2/hw2.pdb"
-  "/home/ubuntu/catkin_ws/devel/lib/hw2/hw2"
+  "../devel/lib/hw2/hw2.pdb"
+  "../devel/lib/hw2/hw2"
 )
 
 # Per-language clean rules from dependency scanning.

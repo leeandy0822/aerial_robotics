@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/ubuntu/catkin_ws/build'
+export CMAKE_PREFIX_PATH="/home/leeandy/aerial_robotics/build/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/leeandy/aerial_robotics/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/leeandy/aerial_robotics/build/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/leeandy/aerial_robotics/src:$ROS_PACKAGE_PATH"

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/catkin_ws/src
+# Install script for directory: /home/leeandy/aerial_robotics/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,94 +49,94 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/catkin_ws/install/_setup_util.py")
+   "/usr/local/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/catkin_ws/install" TYPE PROGRAM FILES "/home/ubuntu/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/leeandy/aerial_robotics/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/catkin_ws/install/env.sh")
+   "/usr/local/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/catkin_ws/install" TYPE PROGRAM FILES "/home/ubuntu/catkin_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/leeandy/aerial_robotics/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/catkin_ws/install/setup.bash;/home/ubuntu/catkin_ws/install/local_setup.bash")
+   "/usr/local/setup.bash;/usr/local/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/catkin_ws/install" TYPE FILE FILES
-    "/home/ubuntu/catkin_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/ubuntu/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
+    "/home/leeandy/aerial_robotics/build/catkin_generated/installspace/setup.bash"
+    "/home/leeandy/aerial_robotics/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/catkin_ws/install/setup.sh;/home/ubuntu/catkin_ws/install/local_setup.sh")
+   "/usr/local/setup.sh;/usr/local/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/catkin_ws/install" TYPE FILE FILES
-    "/home/ubuntu/catkin_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/ubuntu/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
+    "/home/leeandy/aerial_robotics/build/catkin_generated/installspace/setup.sh"
+    "/home/leeandy/aerial_robotics/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/catkin_ws/install/setup.zsh;/home/ubuntu/catkin_ws/install/local_setup.zsh")
+   "/usr/local/setup.zsh;/usr/local/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/catkin_ws/install" TYPE FILE FILES
-    "/home/ubuntu/catkin_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/ubuntu/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
+    "/home/leeandy/aerial_robotics/build/catkin_generated/installspace/setup.zsh"
+    "/home/leeandy/aerial_robotics/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ubuntu/catkin_ws/install/.rosinstall")
+   "/usr/local/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ubuntu/catkin_ws/install" TYPE FILE FILES "/home/ubuntu/catkin_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/leeandy/aerial_robotics/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/ubuntu/catkin_ws/build/hw1/cmake_install.cmake")
-  include("/home/ubuntu/catkin_ws/build/hw11/cmake_install.cmake")
-  include("/home/ubuntu/catkin_ws/build/hw2/cmake_install.cmake")
-  include("/home/ubuntu/catkin_ws/build/hw3/cmake_install.cmake")
-  include("/home/ubuntu/catkin_ws/build/hw6/cmake_install.cmake")
-  include("/home/ubuntu/catkin_ws/build/hw7/cmake_install.cmake")
+  include("/home/leeandy/aerial_robotics/build/gtest/cmake_install.cmake")
+  include("/home/leeandy/aerial_robotics/build/hw1/cmake_install.cmake")
+  include("/home/leeandy/aerial_robotics/build/hw11/cmake_install.cmake")
+  include("/home/leeandy/aerial_robotics/build/hw2/cmake_install.cmake")
+  include("/home/leeandy/aerial_robotics/build/hw3/cmake_install.cmake")
+  include("/home/leeandy/aerial_robotics/build/hw6/cmake_install.cmake")
+  include("/home/leeandy/aerial_robotics/build/hw7/cmake_install.cmake")
 
 endif()
 
@@ -148,5 +148,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/leeandy/aerial_robotics/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

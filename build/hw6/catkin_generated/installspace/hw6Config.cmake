@@ -67,14 +67,14 @@ set(hw6_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(hw6_SOURCE_PREFIX /home/ubuntu/catkin_ws/src/hw6)
-  set(hw6_DEVEL_PREFIX /home/ubuntu/catkin_ws/devel)
+  set(hw6_SOURCE_PREFIX /home/leeandy/aerial_robotics/src/hw6)
+  set(hw6_DEVEL_PREFIX /home/leeandy/aerial_robotics/build/devel)
   set(hw6_INSTALL_PREFIX "")
   set(hw6_PREFIX ${hw6_DEVEL_PREFIX})
 else()
   set(hw6_SOURCE_PREFIX "")
   set(hw6_DEVEL_PREFIX "")
-  set(hw6_INSTALL_PREFIX /home/ubuntu/catkin_ws/install)
+  set(hw6_INSTALL_PREFIX /usr/local)
   set(hw6_PREFIX ${hw6_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ubuntu/catkin_ws/install/lib;/home/ubuntu/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /usr/local/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

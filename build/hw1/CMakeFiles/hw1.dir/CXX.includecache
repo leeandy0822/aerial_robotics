@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/catkin_ws/src/hw1/src/hw1.cpp
+/home/leeandy/aerial_robotics/src/hw1/src/hw1.cpp
 ros/ros.h
-/home/ubuntu/catkin_ws/src/hw1/src/ros/ros.h
+/home/leeandy/aerial_robotics/src/hw1/src/ros/ros.h
 geometry_msgs/Twist.h
 -
 cstdio

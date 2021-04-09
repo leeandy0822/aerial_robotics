@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/catkin_ws/src/hw2/src/hw2.cpp
+/home/leeandy/aerial_robotics/src/hw2/src/hw2.cpp
 ros/ros.h
-/home/ubuntu/catkin_ws/src/hw2/src/ros/ros.h
+/home/leeandy/aerial_robotics/src/hw2/src/ros/ros.h
 turtlesim/Pose.h
 -
 geometry_msgs/Twist.h

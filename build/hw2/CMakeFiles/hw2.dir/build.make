@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/leeandy/aerial_robotics/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/catkin_ws/build
+CMAKE_BINARY_DIR = /home/leeandy/aerial_robotics/build
 
 # Include any dependencies generated for this target.
 include hw2/CMakeFiles/hw2.dir/depend.make
@@ -58,17 +58,17 @@ include hw2/CMakeFiles/hw2.dir/progress.make
 include hw2/CMakeFiles/hw2.dir/flags.make
 
 hw2/CMakeFiles/hw2.dir/src/hw2.cpp.o: hw2/CMakeFiles/hw2.dir/flags.make
-hw2/CMakeFiles/hw2.dir/src/hw2.cpp.o: /home/ubuntu/catkin_ws/src/hw2/src/hw2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hw2/CMakeFiles/hw2.dir/src/hw2.cpp.o"
-	cd /home/ubuntu/catkin_ws/build/hw2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw2.dir/src/hw2.cpp.o -c /home/ubuntu/catkin_ws/src/hw2/src/hw2.cpp
+hw2/CMakeFiles/hw2.dir/src/hw2.cpp.o: /home/leeandy/aerial_robotics/src/hw2/src/hw2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leeandy/aerial_robotics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hw2/CMakeFiles/hw2.dir/src/hw2.cpp.o"
+	cd /home/leeandy/aerial_robotics/build/hw2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw2.dir/src/hw2.cpp.o -c /home/leeandy/aerial_robotics/src/hw2/src/hw2.cpp
 
 hw2/CMakeFiles/hw2.dir/src/hw2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw2.dir/src/hw2.cpp.i"
-	cd /home/ubuntu/catkin_ws/build/hw2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/catkin_ws/src/hw2/src/hw2.cpp > CMakeFiles/hw2.dir/src/hw2.cpp.i
+	cd /home/leeandy/aerial_robotics/build/hw2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leeandy/aerial_robotics/src/hw2/src/hw2.cpp > CMakeFiles/hw2.dir/src/hw2.cpp.i
 
 hw2/CMakeFiles/hw2.dir/src/hw2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw2.dir/src/hw2.cpp.s"
-	cd /home/ubuntu/catkin_ws/build/hw2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/catkin_ws/src/hw2/src/hw2.cpp -o CMakeFiles/hw2.dir/src/hw2.cpp.s
+	cd /home/leeandy/aerial_robotics/build/hw2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leeandy/aerial_robotics/src/hw2/src/hw2.cpp -o CMakeFiles/hw2.dir/src/hw2.cpp.s
 
 hw2/CMakeFiles/hw2.dir/src/hw2.cpp.o.requires:
 
@@ -88,32 +88,32 @@ hw2_OBJECTS = \
 # External object files for target hw2
 hw2_EXTERNAL_OBJECTS =
 
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: hw2/CMakeFiles/hw2.dir/src/hw2.cpp.o
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: hw2/CMakeFiles/hw2.dir/build.make
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /opt/ros/melodic/lib/libroscpp.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /opt/ros/melodic/lib/librosconsole.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /opt/ros/melodic/lib/librostime.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /opt/ros/melodic/lib/libcpp_common.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ubuntu/catkin_ws/devel/lib/hw2/hw2: hw2/CMakeFiles/hw2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ubuntu/catkin_ws/devel/lib/hw2/hw2"
-	cd /home/ubuntu/catkin_ws/build/hw2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hw2.dir/link.txt --verbose=$(VERBOSE)
+devel/lib/hw2/hw2: hw2/CMakeFiles/hw2.dir/src/hw2.cpp.o
+devel/lib/hw2/hw2: hw2/CMakeFiles/hw2.dir/build.make
+devel/lib/hw2/hw2: /opt/ros/melodic/lib/libroscpp.so
+devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+devel/lib/hw2/hw2: /opt/ros/melodic/lib/librosconsole.so
+devel/lib/hw2/hw2: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+devel/lib/hw2/hw2: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+devel/lib/hw2/hw2: /opt/ros/melodic/lib/libxmlrpcpp.so
+devel/lib/hw2/hw2: /opt/ros/melodic/lib/libroscpp_serialization.so
+devel/lib/hw2/hw2: /opt/ros/melodic/lib/librostime.so
+devel/lib/hw2/hw2: /opt/ros/melodic/lib/libcpp_common.so
+devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_system.so
+devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/hw2/hw2: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+devel/lib/hw2/hw2: hw2/CMakeFiles/hw2.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leeandy/aerial_robotics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../devel/lib/hw2/hw2"
+	cd /home/leeandy/aerial_robotics/build/hw2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hw2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-hw2/CMakeFiles/hw2.dir/build: /home/ubuntu/catkin_ws/devel/lib/hw2/hw2
+hw2/CMakeFiles/hw2.dir/build: devel/lib/hw2/hw2
 
 .PHONY : hw2/CMakeFiles/hw2.dir/build
 
@@ -122,10 +122,10 @@ hw2/CMakeFiles/hw2.dir/requires: hw2/CMakeFiles/hw2.dir/src/hw2.cpp.o.requires
 .PHONY : hw2/CMakeFiles/hw2.dir/requires
 
 hw2/CMakeFiles/hw2.dir/clean:
-	cd /home/ubuntu/catkin_ws/build/hw2 && $(CMAKE_COMMAND) -P CMakeFiles/hw2.dir/cmake_clean.cmake
+	cd /home/leeandy/aerial_robotics/build/hw2 && $(CMAKE_COMMAND) -P CMakeFiles/hw2.dir/cmake_clean.cmake
 .PHONY : hw2/CMakeFiles/hw2.dir/clean
 
 hw2/CMakeFiles/hw2.dir/depend:
-	cd /home/ubuntu/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/catkin_ws/src /home/ubuntu/catkin_ws/src/hw2 /home/ubuntu/catkin_ws/build /home/ubuntu/catkin_ws/build/hw2 /home/ubuntu/catkin_ws/build/hw2/CMakeFiles/hw2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leeandy/aerial_robotics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leeandy/aerial_robotics/src /home/leeandy/aerial_robotics/src/hw2 /home/leeandy/aerial_robotics/build /home/leeandy/aerial_robotics/build/hw2 /home/leeandy/aerial_robotics/build/hw2/CMakeFiles/hw2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hw2/CMakeFiles/hw2.dir/depend
 

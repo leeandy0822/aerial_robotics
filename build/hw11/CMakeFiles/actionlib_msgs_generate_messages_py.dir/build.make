@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/leeandy/aerial_robotics/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/catkin_ws/build
+CMAKE_BINARY_DIR = /home/leeandy/aerial_robotics/build
 
 # Utility rule file for actionlib_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ hw11/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build: actionlib_msgs_ge
 .PHONY : hw11/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 
 hw11/CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean:
-	cd /home/ubuntu/catkin_ws/build/hw11 && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/leeandy/aerial_robotics/build/hw11 && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : hw11/CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean
 
 hw11/CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend:
-	cd /home/ubuntu/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/catkin_ws/src /home/ubuntu/catkin_ws/src/hw11 /home/ubuntu/catkin_ws/build /home/ubuntu/catkin_ws/build/hw11 /home/ubuntu/catkin_ws/build/hw11/CMakeFiles/actionlib_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leeandy/aerial_robotics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leeandy/aerial_robotics/src /home/leeandy/aerial_robotics/src/hw11 /home/leeandy/aerial_robotics/build /home/leeandy/aerial_robotics/build/hw11 /home/leeandy/aerial_robotics/build/hw11/CMakeFiles/actionlib_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hw11/CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/leeandy/aerial_robotics/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/catkin_ws/build
+CMAKE_BINARY_DIR = /home/leeandy/aerial_robotics/build
 
 # Include any dependencies generated for this target.
 include hw7/CMakeFiles/tf_cf2.dir/depend.make
@@ -58,17 +58,17 @@ include hw7/CMakeFiles/tf_cf2.dir/progress.make
 include hw7/CMakeFiles/tf_cf2.dir/flags.make
 
 hw7/CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.o: hw7/CMakeFiles/tf_cf2.dir/flags.make
-hw7/CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.o: /home/ubuntu/catkin_ws/src/hw7/src/tf_cf2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hw7/CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.o"
-	cd /home/ubuntu/catkin_ws/build/hw7 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.o -c /home/ubuntu/catkin_ws/src/hw7/src/tf_cf2.cpp
+hw7/CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.o: /home/leeandy/aerial_robotics/src/hw7/src/tf_cf2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leeandy/aerial_robotics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hw7/CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.o"
+	cd /home/leeandy/aerial_robotics/build/hw7 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.o -c /home/leeandy/aerial_robotics/src/hw7/src/tf_cf2.cpp
 
 hw7/CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.i"
-	cd /home/ubuntu/catkin_ws/build/hw7 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/catkin_ws/src/hw7/src/tf_cf2.cpp > CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.i
+	cd /home/leeandy/aerial_robotics/build/hw7 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leeandy/aerial_robotics/src/hw7/src/tf_cf2.cpp > CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.i
 
 hw7/CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.s"
-	cd /home/ubuntu/catkin_ws/build/hw7 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/catkin_ws/src/hw7/src/tf_cf2.cpp -o CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.s
+	cd /home/leeandy/aerial_robotics/build/hw7 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leeandy/aerial_robotics/src/hw7/src/tf_cf2.cpp -o CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.s
 
 hw7/CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.o.requires:
 
@@ -88,50 +88,50 @@ tf_cf2_OBJECTS = \
 # External object files for target tf_cf2
 tf_cf2_EXTERNAL_OBJECTS =
 
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: hw7/CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.o
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: hw7/CMakeFiles/tf_cf2.dir/build.make
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libimage_transport.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libclass_loader.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/libPocoFoundation.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libroslib.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/librospack.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libcv_bridge.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libtf.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libtf2_ros.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libactionlib.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libmessage_filters.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libroscpp.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libtf2.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/librosconsole.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/librostime.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libcpp_common.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2: hw7/CMakeFiles/tf_cf2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2"
-	cd /home/ubuntu/catkin_ws/build/hw7 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tf_cf2.dir/link.txt --verbose=$(VERBOSE)
+devel/lib/hw7/tf_cf2: hw7/CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.o
+devel/lib/hw7/tf_cf2: hw7/CMakeFiles/tf_cf2.dir/build.make
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libimage_transport.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libclass_loader.so
+devel/lib/hw7/tf_cf2: /usr/lib/libPocoFoundation.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libdl.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libroslib.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/librospack.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libcv_bridge.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libtf.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libtf2_ros.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libactionlib.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libmessage_filters.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libroscpp.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libxmlrpcpp.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libtf2.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/librosconsole.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libroscpp_serialization.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/librostime.so
+devel/lib/hw7/tf_cf2: /opt/ros/melodic/lib/libcpp_common.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_system.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/hw7/tf_cf2: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+devel/lib/hw7/tf_cf2: hw7/CMakeFiles/tf_cf2.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leeandy/aerial_robotics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../devel/lib/hw7/tf_cf2"
+	cd /home/leeandy/aerial_robotics/build/hw7 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tf_cf2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-hw7/CMakeFiles/tf_cf2.dir/build: /home/ubuntu/catkin_ws/devel/lib/hw7/tf_cf2
+hw7/CMakeFiles/tf_cf2.dir/build: devel/lib/hw7/tf_cf2
 
 .PHONY : hw7/CMakeFiles/tf_cf2.dir/build
 
@@ -140,10 +140,10 @@ hw7/CMakeFiles/tf_cf2.dir/requires: hw7/CMakeFiles/tf_cf2.dir/src/tf_cf2.cpp.o.r
 .PHONY : hw7/CMakeFiles/tf_cf2.dir/requires
 
 hw7/CMakeFiles/tf_cf2.dir/clean:
-	cd /home/ubuntu/catkin_ws/build/hw7 && $(CMAKE_COMMAND) -P CMakeFiles/tf_cf2.dir/cmake_clean.cmake
+	cd /home/leeandy/aerial_robotics/build/hw7 && $(CMAKE_COMMAND) -P CMakeFiles/tf_cf2.dir/cmake_clean.cmake
 .PHONY : hw7/CMakeFiles/tf_cf2.dir/clean
 
 hw7/CMakeFiles/tf_cf2.dir/depend:
-	cd /home/ubuntu/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/catkin_ws/src /home/ubuntu/catkin_ws/src/hw7 /home/ubuntu/catkin_ws/build /home/ubuntu/catkin_ws/build/hw7 /home/ubuntu/catkin_ws/build/hw7/CMakeFiles/tf_cf2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leeandy/aerial_robotics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leeandy/aerial_robotics/src /home/leeandy/aerial_robotics/src/hw7 /home/leeandy/aerial_robotics/build /home/leeandy/aerial_robotics/build/hw7 /home/leeandy/aerial_robotics/build/hw7/CMakeFiles/tf_cf2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hw7/CMakeFiles/tf_cf2.dir/depend
 

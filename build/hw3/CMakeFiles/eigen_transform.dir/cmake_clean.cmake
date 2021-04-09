@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/eigen_transform.dir/src/eigen_transform.cpp.o"
-  "/home/ubuntu/catkin_ws/devel/lib/hw3/eigen_transform.pdb"
-  "/home/ubuntu/catkin_ws/devel/lib/hw3/eigen_transform"
+  "../devel/lib/hw3/eigen_transform.pdb"
+  "../devel/lib/hw3/eigen_transform"
 )
 
 # Per-language clean rules from dependency scanning.
