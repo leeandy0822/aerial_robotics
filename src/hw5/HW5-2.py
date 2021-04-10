@@ -6,8 +6,11 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 
-# Read Dataset
+# Read Dataset, save for the validation
 df = pd.read_excel (r'HW5-2.xls')
+given = df.to_numpy()
+
+# Turn into numpy array
 ax = df.loc[:,["ax"]].to_numpy()
 ay = df.loc[:,["ay"]].to_numpy()
 az = df.loc[:,["az"]].to_numpy()
@@ -52,13 +55,14 @@ for i in range(data_amount):
         norq = math.sqrt(q[0]*q[0]+q[1]*q[1]+q[2]*q[2]+q[3]*q[3])
         q = q/norq
         
+    # Final result
     q_predict[i,0] = q[0]
     q_predict[i,1] = q[1]
     q_predict[i,2] = q[2]
     q_predict[i,3] = q[3]
     
     
-    
+    # Check if this quaternion can turn Earth frame to Body frame accurately
     q1 = Quaternion(q[0],q[1],q[2],q[3])
     q1_inv = q1.inverse
     E = Quaternion(0,0,0,-9.8)
@@ -66,35 +70,48 @@ for i in range(data_amount):
     
     
     for k in range(4):
-        Data[i,k] = round(q2[k],2)
+        Data[i,k] = q2[k]
     
-
+    
+    
+# Abandon the first term (it's 0)    
 Data = Data[:,1:]
-## convert your array into a dataframe
+
+
+# Save Data
 df = pd.DataFrame (Data)
-## save to xlsx file
-filepath = 'HW5-2_predict.xlsx'
+filepath = 'Acc_predict.xlsx'
+df.to_excel(filepath, index=False)
+
+df = pd.DataFrame (q_predict)
+filepath = 'Quaternion_predict.xlsx'
 df.to_excel(filepath, index=False)
 
 
 
-# Data Visulization, we pick 10 datasets to show its attitude trajectory
+
+# For drawing purpose, add the original point
+Given_draw = np.zeros((100,6))
 Data_draw = np.zeros((100,6))
 Data_draw[:,3:] = Data
-row_idx = np.array([0,10,20,30,40,50,60,70,80,90,99])
-Data_draw = Data_draw[row_idx, :]
-soa = Data_draw
+Given_draw[:,3:] = given
 
-X, Y, Z, U, V, W = zip(*soa)
+# Plot two trajectory, one is given data, the other is our predict one
+soa1 = Data_draw
+soa2 = Given_draw
 
+X1, Y1, Z1, U1, V1, W1 = zip(*soa1)
+X2,Y2,Z2,U2,V2,W2 = zip(*soa2)
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
 
-ax.quiver(X, Y, Z, U, V, W, color='r',pivot = 'tail',length = 1)
-ax.quiver(0, 0, 0, 3, 0, 0,  color='g',pivot = 'tail',length = 1)
-ax.quiver(0, 0, 0, 0, 3, 0,  color='g',pivot = 'tail',length = 1)
-ax.quiver(0, 0, 0, 0, 0, 3,  color='g',pivot = 'tail',length = 1)
+l1 = ax.quiver(X1, Y1, Z1, U1, V1, W1, color='r',pivot = 'tail',length = 1)
+l2 = ax.quiver(X2, Y2, Z2, U2, V2, W2, color='b',pivot = 'tail',length = 1)
+
+ax.quiver(0, 0, 0, 3, 0, 0,  color='gray',pivot = 'tail',length = 1)
+ax.quiver(0, 0, 0, 0, 3, 0,  color='gray',pivot = 'tail',length = 1)
+ax.quiver(0, 0, 0, 0, 0, 3,  color='gray',pivot = 'tail',length = 1)
 
 
 ax.set_xlim([-9.8, 5])
@@ -104,6 +121,8 @@ ax.set_zlim([-9.8, 5])
 ax.set_xlabel('x')
 ax.set_ylabel('y')
 ax.set_zlabel('z (gravity = -9.8)')
-plt.title("Attitude of the UAV (10 datasets)")
+plt.title("Attitude of the UAV")
+plt.legend(handles=[l2,l1],labels=['Given Acc','Predicted Acc (Get from the predict quaternion)'],loc='best')
 
 plt.show()
+
