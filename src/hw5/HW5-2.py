@@ -73,7 +73,7 @@ Data = Data[:,1:]
 ## convert your array into a dataframe
 df = pd.DataFrame (Data)
 ## save to xlsx file
-filepath = 'HW52_predict.xlsx'
+filepath = 'HW5-2_predict.xlsx'
 df.to_excel(filepath, index=False)
 
 
