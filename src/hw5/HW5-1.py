@@ -17,10 +17,10 @@ A = np.c_[A, np.ones(50)]
 
 X = np.array([0,0,0])
 
-# Because A is not a square matrix, so I use the pseudo inverse matrix way
+# Because A is not a square matrix, use the pseudo inverse matrix way
 A_pseudo = np.linalg.inv(((A.T).dot(A))).dot(A.T)
 
-# caculate
+# calculate
 X = A_pseudo.dot(out)
-print("Let the function be  ax + by +c = output")
+print("Let the function be  ax + by + c = output")
 print("Final result: a = {}, b = {}, c = {}".format(round(X[0,0],2),round(X[1,0],2),round(X[2,0])))
