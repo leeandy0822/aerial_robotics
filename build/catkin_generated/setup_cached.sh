@@ -7,7 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/leeandy/aerial_robotics/build/devel:$CMAKE_PREFIX_PATH"
+export PATH='/opt/ros/melodic/bin:/home/leeandy/anaconda3/condabin:/home/leeandy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
 export PWD='/home/leeandy/aerial_robotics/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/leeandy/aerial_robotics/build/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/leeandy/aerial_robotics/src:$ROS_PACKAGE_PATH"

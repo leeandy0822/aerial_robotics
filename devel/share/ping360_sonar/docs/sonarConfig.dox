@@ -1,0 +1,14 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~debug" : \b [bool] Display Images min: False, default: True, max: True
+- \b "~range" : \b [int] Sonar range (m) min: 1, default: 1, max: 60
+- \b "~gain" : \b [int] Receiver Gain (Low:0 , Medium: 1, High: 2) min: 0, default: 0, max: 2
+- \b "~numberOfSamples" : \b [int] Number of samples min: 1, default: 200, max: 2000
+- \b "~transmitFrequency" : \b [int] Transmit Frequency (kHz) min: 500, default: 740, max: 1000
+- \b "~speedOfSound" : \b [int] Speed of sound (m/s) min: 1450, default: 1450, max: 1550
+- \b "~step" : \b [int] Filling Step min: 1, default: 1, max: 10
+- \b "~queueSize" : \b [int] Queue Size min: 0, default: 1, max: 10
+- \b "~threshold" : \b [int] Intensity threshold min: 0, default: 200, max: 255
+

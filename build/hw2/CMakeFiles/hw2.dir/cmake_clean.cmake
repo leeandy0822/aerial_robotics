@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hw2.dir/src/hw2.cpp.o"
-  "../devel/lib/hw2/hw2.pdb"
-  "../devel/lib/hw2/hw2"
+  "/home/leeandy/aerial_robotics/devel/lib/hw2/hw2.pdb"
+  "/home/leeandy/aerial_robotics/devel/lib/hw2/hw2"
 )
 
 # Per-language clean rules from dependency scanning.

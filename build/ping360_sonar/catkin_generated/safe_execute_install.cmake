@@ -1,0 +1,5 @@
+execute_process(COMMAND "/home/leeandy/aerial_robotics/build/ping360_sonar/catkin_generated/python_distutils_install.sh" RESULT_VARIABLE res)
+
+if(NOT res EQUAL 0)
+  message(FATAL_ERROR "execute_process(/home/leeandy/aerial_robotics/build/ping360_sonar/catkin_generated/python_distutils_install.sh) returned error code ")
+endif()

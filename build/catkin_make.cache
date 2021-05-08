@@ -1,2 +1,2 @@
-hw1:hw11:hw2:hw3:hw6:hw7
+hw1:hw11:hw2:hw3:hw6:hw7:ping360_sonar
 -DCATKIN_DEVEL_PREFIX=/home/leeandy/aerial_robotics/devel -DCMAKE_INSTALL_PREFIX=/home/leeandy/aerial_robotics/install -G Unix Makefiles

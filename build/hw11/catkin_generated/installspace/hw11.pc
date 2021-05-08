@@ -1,4 +1,4 @@
-prefix=/usr/local
+prefix=/home/leeandy/aerial_robotics/install
 
 Name: hw11
 Description: Description of hw11

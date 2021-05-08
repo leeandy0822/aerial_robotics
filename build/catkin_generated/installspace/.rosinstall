@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /usr/local/setup.sh
+    local-name: /home/leeandy/aerial_robotics/install/setup.sh

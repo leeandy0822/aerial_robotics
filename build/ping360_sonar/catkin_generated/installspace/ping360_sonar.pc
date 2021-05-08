@@ -1,0 +1,8 @@
+prefix=/home/leeandy/aerial_robotics/install
+
+Name: ping360_sonar
+Description: Description of ping360_sonar
+Version: 1.4.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

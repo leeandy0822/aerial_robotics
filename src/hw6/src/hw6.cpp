@@ -21,6 +21,8 @@ struct Dynamic_State {
 	float last = 0;
 	float current = 0;
 };
+
+
 int main(int argc, char **argv)
 {
 	ros::init(argc,argv,"dynamic");
@@ -31,6 +33,8 @@ int main(int argc, char **argv)
 	float k = 1;//spring constant
 	float b = 0.707;//damping coefficient
 	float u = 1;//control input is unit step function(r = u,without controller design)constant force,
+	float x1_dot = 0;
+	float x2_dot = 0;
 	struct Dynamic_State x2;//velocity
 	struct Dynamic_State x1;//position
 	ros::Rate loop_rate(10);
@@ -42,14 +46,24 @@ int main(int argc, char **argv)
 		double now = ros::Time::now().toSec();
 		/*Discrete-Time Linear State-Space*/
 		dt = now - past;
-
 		/*Following codes are implemented with numerical integration
 		 *x(k+1) = x(k) + x_dot * dt;
 		 *
 		 *Please implement your codes here.
 		 */
+		//According to the control canoical form, we can get:
+		x1_dot = x2.last;
+		x2_dot = -k/M*x1.last - b/M*x2.last + 1/M*u;
 
+		// update the x1 and x2 acoording to the x1_dot and x2_dot we got
+		x1.current = x1.last + x1_dot*dt;
+		x2.current = x2.last + x2_dot*dt;
+		
 		/*Current moment is last moment in the future*/
+		// x1 last is x1 current in the future
+		x1.last = x1.current;
+		x2.last = x2.current;
+		
 		past = now;
 		/*You can check the position data by PlotJuggler*/
 		position.data = x1.current; 

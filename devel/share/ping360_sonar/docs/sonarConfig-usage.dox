@@ -1,0 +1,15 @@
+\subsubsection usage Usage
+\verbatim
+<node name="ping360_sonar" pkg="ping360_sonar" type="ping360_sonar">
+  <param name="debug" type="bool" value="True" />
+  <param name="range" type="int" value="1" />
+  <param name="gain" type="int" value="0" />
+  <param name="numberOfSamples" type="int" value="200" />
+  <param name="transmitFrequency" type="int" value="740" />
+  <param name="speedOfSound" type="int" value="1450" />
+  <param name="step" type="int" value="1" />
+  <param name="queueSize" type="int" value="1" />
+  <param name="threshold" type="int" value="200" />
+</node>
+\endverbatim
+

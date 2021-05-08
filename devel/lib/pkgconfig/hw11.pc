@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/catkin_ws/devel
+prefix=/home/leeandy/aerial_robotics/devel
 
 Name: hw11
 Description: Description of hw11
